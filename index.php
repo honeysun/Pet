@@ -31,12 +31,12 @@
       <script src="js/html5shiv.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body>fred
 		<div class="container">
 			<div class="demo-row pbn">
 				<div class="demo-content-wide">
 					<div class="navbar">
-						<div class="navbar navbar-inverse">
+						<!--div class="navbar navbar-inverse"-->
 							<div class="navbar-inner">
 								<div class="container">
 									<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-03">
@@ -97,7 +97,7 @@
 									</div><!--/.nav-collapse -->
 								</div>
 							</div>
-						</div> <!-- /navbar-inverse -->	
+						<!--/div--> <!-- /navbar-inverse -->	
 					</div>
 				</div> <!-- /row -->  
 			</div>

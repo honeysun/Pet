@@ -11,7 +11,7 @@
 
     <!-- Loading Flat UI -->
     <link href="UI/css/flat-ui.css" rel="stylesheet">
-		<link href="UI/css/rslides.css" rel="stylesheet">
+	<link href="UI/css/rslides.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="UI/images/favicon.ico">
 			
@@ -31,95 +31,91 @@
       <script src="js/html5shiv.js"></script>
     <![endif]-->
   </head>
-  <body>fred
-		<div class="container">
-			<div class="demo-row pbn">
-				<div class="demo-content-wide">
-					<div class="navbar">
-						<!--div class="navbar navbar-inverse"-->
-							<div class="navbar-inner">
-								<div class="container">
-									<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-03">
+  <body>
+	<!--div class="container"-->
+		<div class="navbar">
+			<div class="navbar navbar-inverse">
+				<div class="navbar-inner">
+					<div class="container">
+						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse-03">
+						</button>
+						<a href="#fakelink" class="brand">Pet</a>
+						<div class="nav-collapse collapse" id="nav-collapse-03">
+							<ul class="nav">
+								<li>
+									<a href="#fakelink">
+										Features
+										<ul>
+										<li><a href="#fakelink">Find a Host</a></li>												
+										<li><a href="#fakelink">Host a new Pet Friend</a></li>
+										<li><a href="#fakelink">Trust and Safety</a></li>
+										
+									</ul> <!-- /Sub menu -->
+										</a>
+								</li>
+								
+								<li>
+									<a href="#fakelink">
+										Help
+									</a>
+									<ul>
+										<li><a href="#fakelink">Getting Started Guide</a></li>												
+										<li><a href="#fakelink">How do I sign up?</a></li>
+										<li><a href="#fakelink">How do I host on Pet?</a></li>
+										<li><a href="#fakelink">See all FAQs</a></li>
+										
+									</ul> <!-- /Sub menu -->
+								</li>
+							</ul> <!-- /nav -->
+
+							<form class="navbar-search form-search pull-left" action="" align="center">
+								<div class="input-append">
+									<input type="text" class="search-query span2" placeholder="Look for a host">
+									<button type="submit" class="btn btn-large">
+										<i class="fui-search"></i>
 									</button>
-									<a href="#fakelink" class="brand">Pet</a>
-									<div class="nav-collapse collapse" id="nav-collapse-03">
-										<ul class="nav">
-											<li>
-												<a href="#fakelink">
-													Features
-													<ul>
-													<li><a href="#fakelink">Find a Host</a></li>												
-													<li><a href="#fakelink">Host a new Pet Friend</a></li>
-													<li><a href="#fakelink">Trust and Safety</a></li>
-													
-												</ul> <!-- /Sub menu -->
-													</a>
-											</li>
-											
-											<li>
-												<a href="#fakelink">
-													Help
-												</a>
-												<ul>
-													<li><a href="#fakelink">Getting Started Guide</a></li>												
-													<li><a href="#fakelink">How do I sign up?</a></li>
-													<li><a href="#fakelink">How do I host on Pet?</a></li>
-													<li><a href="#fakelink">See all FAQs</a></li>
-													
-												</ul> <!-- /Sub menu -->
-											</li>
-										</ul> <!-- /nav -->
-		
-										<form class="navbar-search form-search pull-left" action="" align="center">
-											<div class="input-append">
-												<input type="text" class="search-query span2" placeholder="Look for a host">
-												<button type="submit" class="btn btn-large">
-													<i class="fui-search"></i>
-												</button>
-											</div>
-										</form>
-		
-										<!--ul class="nav pull-right">
-											<li class="divider"></li>
-											<li class="dropdown">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-													Settings <b class="caret"></b>
-												</a>
-												<ul class="dropdown-menu">
-													<li><a href="#fakelink">Action</a></li>
-													<li><a href="#fakelink">Another action</a></li>
-													<li><a href="#fakelink">Something else here</a></li>
-													<li class="divider"></li>
-													<li><a href="#fakelink">Separated link</a></li>
-												</ul>
-											</li>
-										</ul> <!-- /nav -->
-									</div><!--/.nav-collapse -->
 								</div>
-							</div>
-						<!--/div--> <!-- /navbar-inverse -->	
+							</form>
+
+							<!--ul class="nav pull-right">
+								<li class="divider"></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+										Settings <b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#fakelink">Action</a></li>
+										<li><a href="#fakelink">Another action</a></li>
+										<li><a href="#fakelink">Something else here</a></li>
+										<li class="divider"></li>
+										<li><a href="#fakelink">Separated link</a></li>
+									</ul>
+								</li>
+							</ul> <!-- /nav -->
+						</div><!--/.nav-collapse -->
 					</div>
-				</div> <!-- /row -->  
-			</div>
-		</div> <!-- /container -->	
-		
-		<div class="rslides_container">
-				<ul class="rslides">
-  				<li><img src="img/slide-03.jpg" alt=""></li>
-  				<li><img src="img/slide-02.jpg" alt=""></li>
-				</ul>
+				</div>
+			</div> <!-- /navbar-inverse -->	
 		</div>
+	<!--/div--> <!-- /container -->	
 
-    <div class="dialog demo-dialog">
-      <form class="control-group">
-        <input type="text" placeholder="Login/E-mail" class="flat" />
-        <input type="password" placeholder="Password" class="flat" />
-        <button class="btn btn-primary btn-wide">Login</button>
-        <button class="btn btn-danger btn-wide">Register</button>
-      </form>
-    </div> <!-- /dialog -->
+	<div class="rslides_container">  
+		<ul class="rslides">
+  		<li><img src="img/slide-03.jpg" alt=""></li>
+  		<li><img src="img/slide-02.jpg" alt=""></li>
+		</ul>			
+	</div>
 
- 		<div class="mvl pvl">
+  <div class="dialog registration-dialog">
+		<form class="control-group">
+      <input type="text" placeholder="Login/E-mail" class="flat" />
+      <input type="password" placeholder="Password" class="flat" />
+      <button class="btn btn-primary btn-wide">Login</button>
+      <button class="btn btn-danger btn-wide">Register</button>
+    </form>
+  </div> <!-- /dialog -->
+
+ 	<div class="mvl pvl">
       <div class="bottom-menu bottom-menu-large bottom-menu-inverse">
         <div class="container">
           <div class="row">

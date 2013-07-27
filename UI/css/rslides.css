@@ -8,9 +8,11 @@
 }
 	
 .rslides_container {
-  margin-bottom: 50px;
+  margin-top: -20px;
+  margin-bottom: 20px;
   position: relative;
-  float: left;
+  display: block;
+  /*float: left;*/
   width: 100%;
 }
 
@@ -54,7 +56,7 @@
   text-decoration: none;
   height: 61px;
   width: 38px;
-  background: transparent url("../../javascript/responsiveslides/themes.gif") no-repeat left top;
+  background: transparent url("../../js/responsiveslides/themes.gif") no-repeat left top;
   margin-top: -45px;
  }
 

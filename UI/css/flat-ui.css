@@ -1673,7 +1673,7 @@ a.muted:focus {
   box-sizing: border-box;
 }
 .select .btn {
-  width: 220px;
+  width: 150px;
 }
 .select .btn.btn-huge .filter-option {
   left: 20px;

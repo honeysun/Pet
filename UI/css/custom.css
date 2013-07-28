@@ -1,0 +1,114 @@
+.search-appeal-text {
+  color : #fff;
+  z-index:20;
+  position: absolute;
+}
+.search-appeal-text h1 {
+  color : #fff;
+  font-size: 45px;
+  text-align: left;
+  text-shadow: 2px 4px 20px rgba(52, 52, 52, 1);
+}
+.search-appeal-text h2 {
+  font-size: 25px;
+  text-align: left;
+  text-shadow: 2px 4px 20px rgba(52, 52, 52, 1);
+}
+.search-bar-global {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  width: 1000px;
+  display: block;
+}
+.search-bar {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #edeff1;
+  border: 1px solid #d6dbdf;
+  font-size: 15.988px;
+  /* 16px */
+  z-index:10;
+  margin-top : 175px;
+  margin-bottom: 20px;
+  padding: 5px 5px;
+  position: absolute;
+  text-align: center;
+  width: auto;
+  box-shadow: 2px 4px 20px rgba(52, 52, 52, 1);
+  -moz-box-shadow: 2px 4px 20px rgba(52, 52, 52, 1);
+  -webkit-box-shadow: 2px 4px 20px rgba(52, 52, 52, 1);
+}
+.search-bar .btn {
+  vertical-align: baseline;
+}
+.search-bar form {
+  margin-bottom: 0;
+}
+.search-bar form input,
+.search-bar form .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+  vertical-align: top;
+}
+.search-bar form input:first-child,
+.search-bar form .btn:first-child {
+  margin-left: 0;
+}
+.search-bar.dialog-success {
+  background-color: #f0faf8;
+  border-top-color: #e2edeb;
+}
+.search-bar.dialog-danger {
+  background-color: #fdefed;
+  border-top-color: #fadbd8;
+}
+.search-bar.dialog-warning {
+  background-color: #fefae9;
+  border-top-color: #fcf3cf;
+}
+.search-bar.dialog-info {
+  background-color: #edf6fc;
+  border-top-color: #d6eaf8;
+}
+.search-bar.dialog-inverse {
+  background-color: #34495e;
+  border-top-color: #2a3a4b;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .search-bar {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .search-bar form .btn,
+  .search-bar .btn {
+    display: block;
+    margin: 9px 0;
+    min-width: auto;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .search-bar form .btn:last-child,
+  .search-bar .btn:last-child {
+    margin-bottom: 0;
+  }
+  .search-bar form .btn + .btn,
+  .search-bar .btn + .btn {
+    margin-top: 18px;
+  }
+  .search-bar form input {
+    margin: 9px 0;
+  }
+}
+.select.select-block-search-bar {
+  display: inline-block;
+  margin: 0;
+  width: auto;
+}
